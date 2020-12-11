@@ -27,7 +27,7 @@ class block_calendar_upcoming extends block_base {
      * Initialise the block.
      */
     public function init() {
-        $this->title = get_string('pluginname', 'block_calendar_upcoming');
+        $this->title = get_string('pluginname', 'block_calendar_upcoming_event');
     }
 
     /**
